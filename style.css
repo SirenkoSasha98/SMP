@@ -1,0 +1,117 @@
+#parent
+{
+    text-align: center;
+}
+#mydiv{
+	text-align: center;
+}
+#registration{
+	border-radius: 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+}
+.error,.success {
+	position: absolute;
+	top:0;
+	left:0;
+	padding: 22px,8px,22px,8px;
+	border-bottom-right-radius: 10px;
+	display: none;
+}
+.error{
+	background: #eb9999;
+	border:2px solid #326db5;
+}
+.success{
+	background: blue;
+}
+.notediv{
+	color :#086792;
+	vertical-align : top;
+    display: inline-block;
+    padding: 10px 20px;
+    line-height: 28px;
+    width: 20%;
+    font-size: 18px;
+    box-shadow: 4px 2px 7px rgba(0,0,0, 0.2);
+    text-align: left;
+    margin:10px;
+}
+#textarea{
+	text-align: center;
+	padding: 20px 0 0;
+}
+#textarea textarea {
+	box-shadow: 4px 2px 7px rgba(0,0,0, 0.2);
+	font-size: 16px;
+	color: #086792;
+	line-height: 24px;
+	border: 1px solid #888;
+	resize: vertical;
+	max-height: 250px;
+	padding: 15px 20px;
+	height: 100px;
+	min-height: 100px;
+	margin-bottom: 30px;
+	min-width: 60%;
+}
+
+.clickButtonNote {
+	background-color: transparent;
+	border: 1px solid #086792;
+	color: #086792;
+	padding: 0 20px;
+	line-height: 42px;
+	text-transform: uppercase;
+	border-radius: 20px;
+	transition: .3s ease;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.clickButtonNote:hover {
+	background-color: #086792;
+	color: #fff;
+}
+.image{
+	width:10px;
+	height: 15px;
+	padding-left: 5px;
+	float: right;
+}
+header {
+	position: relative;
+	background-color: #086792;
+	padding: 15px 50px;
+	color: #fff;
+	font-size: 20px;
+}
+header:after {
+	content: '';
+	display: block;
+	height: 0;
+	clear: both;
+}
+header .welcome {
+	float: left;
+	line-height: 30px;
+}
+header .logout {
+	float: right;
+	line-height: 30px;
+	cursor: pointer;
+}
+#updatenote{
+	display: none;
+	position:absolute;
+	color :#086792;
+	vertical-align : top;
+    padding: 10px 20px;
+    line-height: 28px;
+    width: 20%;
+    font-size: 18px;
+    box-shadow: 4px 2px 7px rgba(0,0,0, 0.2);
+    text-align: left;
+    margin:10px;
+}

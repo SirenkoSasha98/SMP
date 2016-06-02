@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Gem style -->
+	<script src="js/modernizr.js"></script> 
+	<meta http-equiv ="Content-Type" charset='utf-8'>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script  type = "text/javascript" src = "script.js"></script>
+  	
+	<title>Notes</title>
+</head>
+<body>
+	<header role="banner">
+		<div id="cd-logo"><a href="#0"><img src="img/cd-logo.svg" alt="Logo"></a></div>
+
+		<nav class="main-nav">
+			<ul>
+				<!-- ссылки на вызов форм -->
+				<li><a class="cd-signin" href="#0">Вход</a></li>
+				<li><a class="cd-signup" href="#0">Регистрация</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<div class="cd-intro">
+		<h1>Notes. Look into the future</h1>
+	</div>
+
+	<div class="cd-user-modal"> <!-- все формы на фоне затемнения-->
+		<div class="cd-user-modal-container"> <!-- основной контейнер -->
+			<ul class="cd-switcher">
+				<li><a href="#0">Вход</a></li>
+				<li><a href="#0">Регистрация</a></li>
+			</ul>
+
+			<div id="cd-login"> <!-- форма входа -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-email"  for="signin-email">Login</label>
+						<input class="full-width has-padding has-border" id = "name_login" type="email" placeholder="E-mail">
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signin-password">Пароль</label>
+						<input class="full-width has-padding has-border" type="password" id="password_login"  placeholder="Пароль">
+						<a href="#0" class="hide-password">Скрыть</a>
+					</p>
+
+					<p class="fieldset">
+						<button class="clickButtonForm">Войти</button>
+					</p>
+				</form>
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-login -->
+
+			<div id="cd-signup"> <!-- форма регистрации -->
+				<form class="cd-form">
+					<p class="fieldset">
+						<label class="image-replace cd-username" for="signup-username">Имя пользователя</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Имя пользователя">
+						<span class="cd-error-message">Здесь сообщение об ошибке!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-email" for="signup-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+						<span class="cd-error-message">Здесь сообщение об ошибке!</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace cd-password" for="signup-password">Пароль</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Пароль">
+						<a href="#0" class="hide-password">Скрыть</a>
+						<span class="cd-error-message">Здесь сообщение об ошибке!</span>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Создать аккаунт">
+					</p>
+				</form>
+
+				<!-- <a href="#0" class="cd-close-form">Close</a> -->
+			</div> <!-- cd-signup -->
+ <!-- cd-reset-password -->
+			<a href="#0" class="cd-close-form">Закрыть</a>
+		</div> <!-- cd-user-modal-container -->
+	</div> <!-- cd-user-modal -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/main.js"></script> <!-- Gem jQuery -->
+</body>
+</html>
